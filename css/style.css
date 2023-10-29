@@ -250,10 +250,10 @@ span {
 }
 .develope-button:hover {
     border: 1px #08d19f dashed;
-    background: none;
 }
 .develope-button {
     border: none;
+    background: none;
 }
 .develope__btn2 {
     display: flex;
@@ -261,6 +261,161 @@ span {
     gap: 70px;
     padding: 20px 0;
 }
+.get__content {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+.get-title {
+    color: #12100c;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71.82px;
+    padding: 150px 0 0;
+}
+
+.get__info-title {
+    color: #12100c;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 46px 50px 8px;
+}
+.get-button1 {
+    color: #fff;
+    text-align: center;
+    padding: 14px 53px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #fc6d26;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.get-button2 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #000;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 14px 53px;
+    border: none;
+}
+
+.get-button3 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #2684ff;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 14px 45px;
+    border: none;
+}
+
+.get__info-text {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+    padding: 10px 60px 10px;
+    margin: 0;
+}
+
+.get__info {
+    background-image: url(../images/launch.png);
+    max-width: 642px;
+    height: 651px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0) 0px 3px 8px;
+}
+
+.get__description {
+    display: flex;
+    justify-content: center;
+}
+
+.get__desc-btn {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+    border-radius: 12px;
+    background: #ffb0ae;
+    border: none;
+    padding: 10px 10px;
+}
+
+.get-btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0px 25px;
+}
+
+.get_content_input {
+    padding: 22px 56px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.get__input-info {
+    display: flex;
+    align-items: center;
+    max-width: 530px;
+    min-height: 56px;
+    border-radius: 12px;
+    background: #f9f9f9;
+}
+
+.get-typescript {
+    padding: 0px 0px 0px 25px;
+}
+
+.get__input-title {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px 60px 0px 16px;
+    margin: 0;
+}
+
+.get__input-button {
+    border-radius: 12px;
+    background: #12100c;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 9px 10px;
+    border: none;
+
+}
+
+@media screen and (max-width: 1243px) {
+    .get__content{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+    
+}
+
 
 @media screen and (max-width: 900px) {
     .hero__content {
@@ -282,11 +437,11 @@ span {
         display: grid;
         grid-template-columns: repeat(1fr);
     }
-    .develope__btn{
+    .develope__btn {
         display: grid;
         grid-template-columns: repeat(1fr);
     }
-    .develope__btn2{
+    .develope__btn2 {
         display: none;
     }
 }
